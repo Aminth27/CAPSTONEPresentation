@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+
+.TitleT {
+    margin: 0px 0px 20px 80px;
+    width: 55%;
+}
+
+#canvas-container {
+    width: 55%;
+    height: 75%;
+    text-align: center;
+    margin-top: 0px;
+    float: left;
+}
+
+#selections {
+    margin-left: 250px;
+}
+
+a.btn { 
+    text-decoration: none;
+    color: #000000; 
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #fff; 
+    height:25px; 
+    width: 100px; 
+    box-shadow: 0 5px 8px 0 grey;
+    transition: background-color .5s; 
+    margin: 0 0 0 30px; 
+    float: left;
+    text-align: center;
+    align-self: center;
+    padding-top: 5px;
+}
+
+a.btn:hover { 
+    background-color: rgba(183, 186, 255, 0.32); 
+}
+
+a.bt {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+canvas {
+   display: inline;
+}
+
+h1 {
+    margin: 0px 5px 20px 40px;
+    font-weight: 700;
+    font-size: 3em;
+    float: left;
+    
+}
+
+h2 {
+    margin: 0px 0px 20px 90px;
+    font-weight: 700;
+    font-size: 3em;
+    color: #3cba9f;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.0em;
+    margin: 20px 0 10px;
+    color: #999;
+}
+
+h4 {
+    margin: 20px 0 70px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+
+.ml12 {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 15px;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml12:hover iframe {
+    visibility: hidden;
+}
+
+.ml13 {
+    font-size: 1.7em;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    color: #ffffff;
+    text-decoration: none!important;
+}
+
+
+p {
+    margin: 12px 0 0px;
+    padding-left: 45px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 28px;
+}
+
+a {
+    margin-top: 50px;
+    display: block;
+    color: #3e95cd;
+}
+
+.Point {
+    float: right;
+    background-color: #e43684;
+    width: 45%;
+    height: 400px;
+    margin-top: 
+}
+
+iframe {
+    position: fixed;
+    z-index: 2;
+}
+
+.Relevant-Findings {
+    float: right;
+    background-color: #eb4690;
+    width: 45%;
+    height: 338px; 
+    position: relative;
+    z-index: 1;
+}
